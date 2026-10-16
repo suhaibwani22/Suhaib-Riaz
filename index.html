@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Suhaib Riaz | Official Personal Website</title>
+  <meta name="description" content="The official personal website of Suhaib Riaz — student, learner, and creator. Explore his bio, projects, and public work.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#17243a">
+  <meta property="og:title" content="Suhaib Riaz | Official Personal Website">
+  <meta property="og:description" content="Learn about Suhaib Riaz, his projects, and public work.">
+  <meta property="og:type" content="website">
+  <style>
+    :root{--navy:#17243a;--navy2:#243650;--cream:#f7f3e9;--gold:#c8a85d;--ink:#202838;--muted:#697386;--white:#fffdf8;--border:#e6dece}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:24px}
+    body{margin:0;background:var(--cream);color:var(--ink);font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65}
+    a{color:inherit}.wrap{width:min(100% - 40px,1000px);margin:auto}
+    header{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:18px 0}
+    .brand{display:flex;align-items:center;gap:11px;text-decoration:none;font-weight:800}
+    .monogram{width:43px;height:43px;border-radius:13px;background:var(--navy);border:1px solid var(--gold);display:grid;place-items:center;color:var(--gold)}
+    nav{display:flex;flex-wrap:wrap;gap:18px}nav a{text-decoration:none;color:var(--muted);font-size:.93rem}nav a:hover{color:var(--navy)}
+    .hero{background:var(--navy);color:var(--white);padding:68px 0 74px;position:relative;overflow:hidden}
+    .hero:after{content:"";position:absolute;width:300px;height:300px;border:1px solid #c8a85d55;border-radius:50%;right:-110px;top:-110px;box-shadow:0 0 0 36px #c8a85d0d,0 0 0 72px #c8a85d0a}
+    .hero-grid{display:grid;grid-template-columns:1fr 220px;align-items:center;gap:38px;position:relative;z-index:1}
+    .eyebrow{color:var(--gold);font-size:.78rem;letter-spacing:2.4px;text-transform:uppercase;font-weight:800}
+    h1{font-size:clamp(2.7rem,7vw,4.8rem);line-height:1.05;letter-spacing:-2px;margin:15px 0}
+    .hero p{max-width:620px;color:#e0e4eb;font-size:1.08rem;margin:0 0 25px}
+    .photo{width:210px;aspect-ratio:1/1;border:2px solid var(--gold);border-radius:28px;object-fit:cover;background:var(--navy2);display:block;overflow:hidden}
+    .photo img{width:100%;height:100%;object-fit:cover}
+    .actions{display:flex;flex-wrap:wrap;gap:11px}.btn{display:inline-block;padding:11px 17px;border-radius:10px;text-decoration:none;font-weight:750;border:1px solid var(--gold)}.primary{background:var(--gold);color:var(--navy)}.secondary{color:var(--white)}
+    main{padding:46px 0 72px}section.content-section{margin:0 0 44px}
+    .heading{display:flex;align-items:center;gap:12px;margin-bottom:15px}.heading:before{content:"";width:30px;height:2px;background:var(--gold)}h2{font-size:1.55rem;color:var(--navy);margin:0}
+    .lead{font-size:1.06rem;color:#414b5d;max-width:800px}.muted{font-size:.9rem;color:var(--muted)}
+    .cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+    .card{background:var(--white);border:1px solid var(--border);border-radius:16px;padding:21px}.icon{font-size:1.4rem;margin-bottom:6px}.card h3{margin:0 0 7px;color:var(--navy);font-size:1.05rem}.card p{margin:0;color:var(--muted);font-size:.95rem}
+    .project-card{display:flex;align-items:center;gap:14px}.project-logo{width:72px;height:72px;object-fit:cover;border-radius:50%;flex-shrink:0;border:1px solid var(--border)}
+    .links{display:flex;flex-wrap:wrap;gap:10px}.links a{background:var(--white);border:1px solid #d8cfbd;border-radius:10px;padding:10px 14px;text-decoration:none;font-weight:700}.links a:hover{border-color:var(--gold)}
+    .callout{border-left:3px solid var(--gold);padding:12px 16px;background:#fffaf0;border-radius:0 10px 10px 0;color:#51596a}
+    footer{background:var(--navy);color:#e0e4eb;padding:23px 0;text-align:center;font-size:.9rem}footer span{color:var(--gold)}
+    @media(max-width:680px){.wrap{width:min(100% - 32px,1000px)}header{align-items:flex-start;flex-direction:column}nav{gap:13px}.hero{padding:48px 0 55px}.hero-grid{grid-template-columns:1fr;gap:24px}.photo{width:150px;border-radius:22px;grid-row:1}.cards{grid-template-columns:1fr}h1{letter-spacing:-1px}}
+  </style>
+</head>
+<body>
+  <header class="wrap">
+    <a class="brand" href="#home"><span class="monogram">SR</span><span>Suhaib Riaz</span></a>
+    <nav aria-label="Main navigation"><a href="#about">About</a><a href="#projects">Projects</a><a href="#connect">Connect</a></nav>
+  </header>
+  <section class="hero" id="home">
+    <div class="wrap hero-grid">
+      <div><div class="eyebrow">Official Personal Website</div>
+        <h1>Suhaib Riaz<span style="color:var(--gold)">.</span></h1>
+        <p>Student, lifelong learner, and creator. This is my space to share my story, the projects I care about, and what I’m learning along the way.</p>
+        <div class="actions"><a class="btn primary" href="#about">About me</a><a class="btn secondary" href="#projects">Explore projects</a></div>
+      </div>
+      <img class="photo" src="profile.jpg" alt="Profile photo of Suhaib Riaz">
+    </div>
+  </section>
+  <main class="wrap">
+    <section class="content-section" id="about">
+      <div class="heading"><h2>About Me</h2></div>
+      <p class="lead">Assalamu Alaikum! I’m Suhaib Riaz, a student who enjoys learning, exploring ideas, and building meaningful creative projects. I believe in useful knowledge, steady progress, and doing work that benefits others.</p>
+    </section>
+    <section class="content-section" id="projects">
+      <div class="heading"><h2>Projects & Interests</h2></div>
+      <div class="cards">
+        <article class="card project-card"><img class="project-logo" src="ilmvision.jpg" alt="Ilmvision logo"><div><h3>Ilmvision</h3><p>A knowledge-focused project sharing beneficial ideas and educational content.</p></div></article>
+        <article class="card"><div class="icon">✍️</div><h3>Creative Work</h3><p>A space for content, writing, designs, and other creative projects.</p></article>
+        <article class="card"><div class="icon">📚</div><h3>Learning Journey</h3><p>Exploring new ideas, building skills, and making steady progress.</p></article>
+      </div>
+    </section>
+    <section class="content-section" id="connect">
+      <div class="heading"><h2>Connect With Me</h2></div>
+      <p class="lead">Follow my public work and updates through my official profile.</p>
+      <div class="links"><a href="https://www.instagram.com/ilmvision/" target="_blank" rel="noopener noreferrer me">Instagram · @ilmvision ↗</a></div>
+      <p class="muted">More public profile links can be added later.</p>
+      <div class="callout">Privacy tip: only publish details you’re comfortable sharing publicly. Don’t add your home address, private phone number, passwords, or school ID.</div>
+    </section>
+  </main>
+  <footer><div class="wrap">© 2026 <span>Suhaib Riaz</span> · Made with purpose.</div></footer>
+</body>
+</html>
